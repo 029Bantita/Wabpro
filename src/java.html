@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <script>
+      //   document.write("Hello javaScript");
+      //   let name = "MINNIEX";
+      //   document.write("Hello " + name);
+
+      //   let x = 10;
+      //   if (x == 10) {
+      //     alert("X = " + x);
+      //   }
+
+      //   let c = confirm("Do you want to deleted");
+      //   if (c) {
+      //     alert("delete completted");
+      //   } else {
+      //     alert("GoodBye");
+      //   }
+
+      let scores = [10, 27, 30, 44, 55];
+      let sum = 0;
+      let avg;
+
+      for (let i = 0; i < scores.length; i++) {
+        sum += scores[i];
+        console.log(sum);
+        document.writeln("<br>i = " + i + " sum = " + sum);
+      }
+      avg = sum / scores.length;
+      document.writeln("<br>Average of scores = " + avg);
+
+      var total = 0;
+      scores.forEach(function (s) {
+        total += s;
+      });
+      document.writeln("<br>total = " + total);
+    </script>
+  </head>
+  <body>
+    <h1>javaScript</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima architecto
+      delectus quam, nam illum ab cumque officia hic at deserunt in, optio unde
+      dolores officiis voluptatum tenetur natus labore. Facere?
+    </p>
+  </body>
+</html>

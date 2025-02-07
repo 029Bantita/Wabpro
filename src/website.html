@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bantaia Noinin Portfolio</title>
+    <link rel="stylesheet" href="./output.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=partly_cloudy_day"
+    />
+
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="flex items-center justify-between p-6 bg-white shadow-md">
+      <div>
+        <h1 class="text-2xl font-semibold text-lime-600">
+          <span class="material-symbols-outlined"> partly_cloudy_day </span>
+          Bantaia Noinin Portfolio
+        </h1>
+      </div>
+
+      <nav class="p-4 text-black">
+        <div class="flex justify-between items-center">
+          <div class="hidden md:flex gap-4">
+            <a href="#" class="text-gray-700 hover:text-lime-600">Home</a>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Resume</a>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Portfolio</a>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Activities</a>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Contact</a>
+          </div>
+
+          <button
+            id="menu-toggle"
+            class="md:hidden focus:outline-none hover:text-lime-600"
+          >
+            ☰
+          </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden flex-col gap-2 mt-4 md:hidden">
+          <a href="#" class="text-gray-700 hover:text-lime-600">Home</a>
+          <a href="#" class="text-gray-700 hover:text-lime-600">Resume</a>
+          <a href="#" class="text-gray-700 hover:text-lime-600">Portfolio</a>
+          <a href="#" class="text-gray-700 hover:text-lime-600">Activities</a>
+          <a href="#" class="text-gray-700 hover:text-lime-600">Contact</a>
+        </div>
+      </nav>
+
+      <!-- <nav>
+        <ul class="flex space-x-4">
+          <li>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Resume</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Portfolio</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Activities</a>
+          </li>
+          <li>
+            <a href="#" class="text-gray-700 hover:text-lime-600">Contact</a>
+          </li>
+        </ul>
+      </nav> -->
+    </header>
+
+    <!-- Introduction Section -->
+    <section
+      class="flex flex-col md:flex-row items-center justify-between p-10"
+    >
+      <div class="md:w-1/2 md:pr-5">
+        <h2 class="text-4xl font-semibold text-lime-600">
+          I am Bantita Noinin
+        </h2>
+        <p class="text-xs mt-4">
+          Bachelor's degree student | Information Technology | Branch Faculty of
+          Industrial Science and Technology
+        </p>
+        <p class="mt-4 text-gray-600">
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus
+          doloremque reprehenderit quidem incidunt commodi. Magnam corporis
+          temporibus voluptas dolore rerum ex!
+        </p>
+        <a
+          href="#"
+          class="text-white mt-4 inline-block bg-lime-600 p-2 rounded-lg"
+          >Read More</a
+        >
+      </div>
+      <div class="md:w-1/2 md:pl-5 mt-6 md:mt-0">
+        <img
+          src="https://plus.unsplash.com/premium_photo-1664372145541-4556b409492e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTN8fHN0dWRlbnR8ZW58MHx8MHx8fDA%3D"
+          alt="Profile Picture"
+          class="w-full object-cover shadow-lg"
+        />
+      </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="p-10">
+      <h3 class="text-3xl font-semibold text-center text-lime-600">
+        Portfolio
+      </h3>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-8">
+        <!-- Web Programming -->
+        <div class="bg-white rounded-lg shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fFdlYiUyMFByb2dyYW1taW5nfGVufDB8fDB8fHww"
+            alt="Web Programming"
+            class="w-full h-48 object-cover rounded-t-lg"
+          />
+          <h4 class="text-xl font-semibold m-6">Web Programming</h4>
+          <p class="text-gray-600 m-6">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- Digital Marketing -->
+        <div class="bg-white rounded-lg shadow-lg">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1661693870771-dbbd8b95b2b1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8RGlnaXRhbCUyME1hcmtldGluZ3xlbnwwfHwwfHx8MA%3D%3D"
+            alt="Digital Marketing"
+            class="w-full h-48 object-cover rounded-t-lg"
+          />
+          <h4 class="text-xl font-semibold m-6">Digital Marketing</h4>
+          <p class="text-gray-600 m-6">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- Data Sciences -->
+        <div class="bg-white rounded-lg shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1518186285589-2f7649de83e0?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8RGF0YSUyMFNjaWVuY2VzfGVufDB8fDB8fHww"
+            alt="Data Sciences"
+            class="w-full h-48 object-cover rounded-t-lg"
+          />
+          <h4 class="text-xl font-semibold m-6">Data Sciences</h4>
+          <p class="text-gray-600 m-6">
+            Lorem ipsum dolor sit amet consectetur adipiscing elit.
+          </p>
+        </div>
+        <!-- Media Design -->
+        <div class="bg-white rounded-lg shadow-lg">
+          <img
+            src="https://images.unsplash.com/photo-1522542550221-31fd19575a2d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8TWVkaWElMjBEZXNpZ258ZW58MHx8MHx8fDA%3D"
+            alt="Media Design"
+            class="w-full h-48 object-cover rounded-t-lg"
+          />
+          <h4 class="text-xl font-semibold m-6">Media Design</h4>
+          <p class="text-gray-600 m-6">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="p-6 bg-white text-center">
+      <p class="text-gray-600">© 2025 Bantita Noinin. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
